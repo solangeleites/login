@@ -54,12 +54,18 @@ input{
     border: none;
     padding: 5px 10px;
     border-radius: 20px;
-    height: 20px;
+    height: 10px;
     margin: 0px 10px;
     font-family: 'Cormorant SC', serif;
+    transition: all 0.40s ease;
 }
 input:focus{
     outline: none;
+    font-weight: 500;
+    background-color: white;
+    transition: all 0.5s ease;
+    height: 30px;
+    width: 200px;
 }
 a{
     text-align: end;
@@ -76,7 +82,12 @@ a{
     cursor: pointer;
     margin: 0 auto;
     font-family: 'Cormorant SC', serif;
-
+}
+.btn1:hover{
+    background-color: #00283c;
+    color: white;
+    transition: all 1s ease;
+    transform: scaleX(20px);
 }
 .continuarcon{
     display: flex;
@@ -103,6 +114,12 @@ button{
     font-size: medium;
     font-weight: 700;
     cursor: pointer;
+}
+button:hover{
+    background-color: #00283c;
+    color: white;
+    transition: all 1s ease;
+    transform: scaleX(20px);
 }
 .new{
     font-size: larger;
