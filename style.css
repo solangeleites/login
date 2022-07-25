@@ -42,7 +42,7 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10px 30px;
+    margin: 10px 0px;
     flex:  1 1 50%;
 }
 label{
@@ -54,25 +54,23 @@ input{
     border: none;
     padding: 5px 10px;
     border-radius: 20px;
-    height: 10px;
-    margin: 0px 10px;
+    height: 20px;
+    width: 300px;
     font-family: 'Cormorant SC', serif;
     transition: all 0.40s ease;
+    font-size: 18px;
 }
 input:focus{
     outline: none;
     font-weight: 500;
     background-color: white;
     transition: all 0.5s ease;
-    height: 30px;
-    width: 200px;
 }
 a{
     text-align: end;
-    margin-right: 20px;
     color: white;
     margin-bottom: 30px;
-    font-size: small;
+    font-size: 14px;
 }
 .btn1{
     border: none;
@@ -102,14 +100,12 @@ a{
     flex-direction: row;
     justify-content: space-around;
     gap: 10px;
-    margin: 0px 5px;
 }
 button{
     border: none;
     border-radius: 20px;
     height: 30px;
     width: 130px;
-    margin: 0 auto;
     font-family: 'Cormorant SC', serif;
     font-size: medium;
     font-weight: 700;
@@ -118,11 +114,14 @@ button{
 button:hover{
     background-color: #00283c;
     color: white;
-    transition: all 1s ease;
+    transition: all 0.40s ease;
     transform: scaleX(20px);
 }
 .new{
     font-size: larger;
     font-weight: 700;
     font-family: 'Cormorant SC', serif;
+}
+.btn-sign{
+margin: 0 auto;
 }
