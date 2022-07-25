@@ -24,6 +24,13 @@ body {
     width: 30%;
     min-width: 300px;
 }
+.logeishon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    height: 50px;
+}
 .login {
     display: flex;
     flex-direction: column;
